@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!--swipper css-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
+</head>
+<body>
+
+  
+    
+    <!--header -->
+
+    <header class="header">
+        <a href="#" class="logo">Portfolio.</a>
+
+        <nav class="navbar">
+            <a href="#home" class="active home-link">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#skills">My Skills</a>
+            <a href="#contact">Contact</a>
+            
+        </nav>
+        <box-icon name='moon' type='solid' ></box-icon>
+        <div class="bx bx-moon" id="darkMode-icon"></div>
+        <div class="bx bx-menu" id="menu-icon"></div>
+        
+        
+    </header>
+
+<!--home section design-->
+<section class="home" id="home">
+    <div class="home-content">
+        <h3>Hello,I am </h3>
+        <h1>Rixongotelo Baloyi</h1>
+        <h2 id="stack-title">FULL STACK SOFTWARE DEVELOPER</h2>
+
+        <p>A dedicated to crafting elegant solutions and unforgettable experiences.
+             With mastery in both frontend and backend technologies,
+             I turn visions into reality with sophistication and flair. Let's collaborate on something truly remarkable!</p>
+
+        <div class="social-media">
+                      <!-- <a href="#"><i class='bx bxl-facebook-circle' ></i></a>-->
+           <!--  <a href="#"><i class='bx bxl-twitter' ></i></a> -->
+           <!--<a href="tel:+27738600712"><i class='bx bxl-whatsapp'></i></a>-->
+           <!-- <a href="https://www.instagram.com/ballin_expert/"><i class='bx bxl-instagram' ></i></a> -->
+           <!-- Email -->
+           <a href="mailto:rixobaloyi@gmail.com"><i class='bx bx-envelope'></i></a>
+           <a href="https://wa.me/27738600712?text=Hello%20there!"><i class='bx bxl-whatsapp'></i></a>
+
+           <a href="https://github.com/dashboard"><i class='bx bxl-github' ></i></a>
+           <a href="https://www.linkedin.com/in/rixongotelo-baloyi-79a617279/?originalSubdomain=za"><i class='bx bxl-linkedin-square' ></i></a>
+
+        
+             
+             
+
+           
+
+        </div>
+        <a href="/assets/cv.pdf" class="btn">Download CV</a>
+
+    </div>
+    <div class="professtion-container">
+        <div class="profession-box">
+
+            <div class="profession" style="--i:0">
+                <i class='bx bx-code-alt'></i>
+                <h3 id="#rotatingH3">Software developer</h3>
+            </div>
+
+            <div class="profession" style="--i:1">
+                <i class='bx bx-code-alt'></i>
+                <h3 id="#rotatingH3">Web developer</h3>
+            </div>
+
+            <div class="profession" style="--i:2">
+                <i class='bx bxs-mobile' ></i>
+                <h3 id="#rotatingH3">Mobile developer</h3>
+            </div>
+
+            <div class="profession" style="--i:3">
+                <i class='bx bx-desktop' ></i>
+                <h3 id="#rotatingH3">Desktop developer</h3>
+            </div>
+            <div class="circle"></div>
+        </div>
+        <div class="overlay">
+
+        </div>
+    </div>
+    
+    <div class="home-img">
+        <img src="/assets/IMG_4974-HD.png" alt="">
+    </div>
+</section>
+
+<!--ABOUT SECTION DESIGN-->
+<section class="about" id="about">
+    <div class="about-img">
+        <img src="assets/abt-profile.JPG" alt="profile pic">
+
+    </div>
+
+    <div class="about-content">
+        <h2 class="heading">About <span>Me</span></h2>
+        <h3>Hi, I'm here to help your next project!</h3>
+        <p id="about-paragraph">
+            I am a passionate full-stack developer with a keen eye for detail and a drive for excellence. With a focus on crafting elegant solutions, I blend creativity with technical expertise to deliver captivating digital experiences.
+            <span id="about-hidden" style="display: none;">My journey in software development has been shaped by a relentless pursuit of innovation and a commitment to continuous learning. I thrive in collaborative environments, where I can leverage my skills to create meaningful impact and drive positive change.</span>
+        </p>
+        <a href="#about" class="btn" onclick="aboutMeReadMore()">Read More</a>
+    </div>
+    
+      
+
+
+</section>
+
+
+<!--SERVICES SECTION DESIGN-->
+<section class="services" id="services">
+<h2 class="heading">My <span>Services</span></h2>
+
+<div class="services-container">
+    <div class="services-box">
+        <i class='bx bx-code-alt'></i>
+        <h3>Web Development</h3>
+        <p class="more-text">As a web developer, I create dynamic and user-friendly websites that reflect your unique identity. Let me transform your ideas into captivating online experiences. My expertise includes front-end development using HTML, CSS, and JavaScript, as well as back-end development with frameworks like Spring and Spring Boot. I focus on delivering responsive and scalable solutions tailored to your needs. Whether you need an e-commerce platform, a corporate website, or a custom web application, I'm here to bring your projects to life.</p>
+       
+    </div>
+    <div class="services-box">
+        <i class='bx bxs-devices'></i>
+        <h3>Mobile Development</h3>
+        <p class="more-text">In the ever-evolving landscape of mobile technology, I specialize in crafting innovative solutions that resonate with users on the go. From sleek interfaces to seamless functionality, my mobile development expertise ensures that your app stands out in a crowded market. Let's turn your app idea into reality. I build native and cross-platform mobile applications using technologies like React Native, Flutter, and Swift. With a focus on user experience and performance, I develop applications that engage users and drive results.</p>
+        
+    </div>
+    <div class="services-box">
+        <i class='bx bx-desktop'></i>
+        <h3>Desktop Development</h3>
+        <p class="more-text">With a passion for problem-solving and attention to detail, I specialize in building powerful desktop applications that streamline workflows and boost efficiency. From concept to deployment, I harness the latest technologies to deliver robust software solutions tailored to your specific needs. Whether you need a standalone application, a client-server system, or an enterprise-level software solution, I'm ready to turn your ideas into reality with high-quality desktop development services.</p>
+      
+    </div>
+</div>
+
+
+
+
+
+
+</section>
+
+<!--PORTFOLIO SECTION DESIGN-->
+<section class="portfolio" id="portfolio">
+
+    <h2 class="heading">Latest <span>Projects</span></h2>
+
+    <div class="portfolio-container">
+
+        <div class="portfolio-box">
+            <img src="assets/porftolio1.jpg" alt="project-pic">
+            <div class="portfolio-layer">
+                <h4>Chat App</h4>
+                <p>Connect instantly with our Chat App. Seamless communication, anytime, anywhere.</p>
+                <a href="#portfolio"><i class='bx bx-link-external'></i></a>
+            </div>
+        </div>
+
+        <div class="portfolio-box">
+            <img src="assets/portfolio10.jpg" alt="project-pic">
+            <div class="portfolio-layer">
+                <h4>Weather App</h4>
+                <p>Stay informed with our Weather App. Accurate forecasts, at your fingertips.</p>
+                <a href="#portfolio"><i class='bx bx-link-external'></i></a>
+            </div>
+        </div>
+
+        <div class="portfolio-box">
+            <img src="assets/portfolio3.jpg" alt="project-pic">
+            <div class="portfolio-layer">
+                <h4>Dice Roller Game</h4>
+                <p>Roll the dice and enjoy endless fun with our Dice Roller Game.</p>
+                <a href="#portfolio"><i class='bx bx-link-external'></i></a>
+            </div>
+        </div>
+
+        <div class="portfolio-box">
+            <img src="assets/portfolio12.jpg" alt="project-pic">
+            <div class="portfolio-layer">
+                <h4>Soacial Media App</h4>
+                <p>Connect effortlessly on our platform. Foster connections, explore opportunities</p>
+                <a href="#portfolio"><i class='bx bx-link-external'></i></a>
+            </div>
+        </div>
+
+        <div class="portfolio-box">
+            <img src="assets/project-5.jpg" alt="project-pic">
+            <div class="portfolio-layer">
+                <h4>Digital Clock</h4>
+                <p>Stay punctual with our Digital Clock. Sleek design, precise timekeeping.</p>
+                <a href="#portfolio"><i class='bx bx-link-external'></i></a>
+            </div>
+        </div>
+
+
+        <div class="portfolio-box">
+            <img src="assets/portfolio6.jpg" alt="project-pic">
+            <div class="portfolio-layer">
+                <h4>CRUD Operations Backend</h4>
+                <p>Manage data effortlessly with our CRUD Backend. Simplify database tasks.
+                     </p>
+                <a href="#portfolio"><i class='bx bx-link-external'></i></a>
+            </div>
+        </div>
+
+
+    </div>
+
+
+</section>
+
+
+<!--SKILLS SECTION DESIGN-->
+
+<section id="skills">
+
+    <div class="testimonial-container">
+        <div class="heading">
+            <h2>My <span>Skills</span> </h2>
+        </div>
+    
+        <div class="testimonial-wrapper ">
+            <div class="testimonial-wrapper">
+                <div class="testimonial-box mySwiper">
+                    <div class="testimonial-context swiper-wrapper">
+
+
+                        <!-- Skill: JavaScript -->
+                        <div class="testimonial-slide swiper-slide">
+                            <img src="/icons/652581_code_command_develop_javascript_language_icon.png" alt="">
+                            <h3>JavaScript</h3>
+                        </div>
+
+                        <!-- Skill: Java -->
+                        <div class="testimonial-slide swiper-slide">
+                            <img src="/icons/_java_coffee_icon.png" alt="">
+                            <h3>Java</h3>
+                        </div>
+                        
+            
+                    <!-- Skill: SpringBoot -->
+                        <div class="testimonial-slide swiper-slide">
+                            <img src="/icons/spring-boot-Icon.webp" alt="">
+                            <h3>SpringBoot</h3>
+                        </div>
+
+                        <!-- Skill: Git -->
+                        <div class="testimonial-slide swiper-slide">
+                        <img src="/assets/github.png" alt="">
+                        <h3>git</h3>
+                        </div>
+            
+                        <!-- Skill: HTML -->
+                        <div class="testimonial-slide swiper-slide">
+                            <img src="/icons/104453_html5_html_5_icon.png" alt="">
+                            <h3>HTML</h3>
+                        </div>
+            
+                        <!-- Skill: CSS -->
+                        <div class="testimonial-slide swiper-slide">
+                            <img src="/icons/_css_icon.png" alt="">
+                            <h3>CSS</h3>
+                        </div>
+            
+                        <!-- Skill: React -->
+                        <div class="testimonial-slide swiper-slide">
+                            <img src="/icons/7423888_react_react native_icon.png" alt="">
+                            <h3>React</h3>
+                        </div>
+            
+                        <!-- Skill: Angular -->
+                        <div class="testimonial-slide swiper-slide">
+                            <img src="/icons/1145600_angular_coding_development_front-end_javascript_icon.png" alt="">
+                            <h3>Angular</h3>
+                        </div>
+            
+                        <!-- Skill: TypeScript -->
+                        <div class="testimonial-slide swiper-slide">
+                            <img src="/icons/typescript-icon.1024x1024.png" alt="">
+                            <h3>TypeScript</h3>
+                        </div>
+            
+
+                        <!-- Skill: PostgreSQL -->
+                        <div class="testimonial-slide swiper-slide">
+                            <img src="/icons/database-postgres.923x1024.png" alt="">
+                            <h3>PostgreSQL</h3>
+                        </div>
+            
+                        <!-- Skill: MySQL Server -->
+                        <div class="testimonial-slide swiper-slide">
+                            <img src="/icons/microsoft-sqlserver.934x1024.png" alt="">
+                            <h3>MySQL Server</h3>
+                        </div>
+            
+                        <!-- Skill: MySQL -->
+                        <div class="testimonial-slide swiper-slide">
+                            <img src="/icons/mysqlworkbench.1024x1024.png" alt="">
+                            <h3>MySQL</h3>
+                        </div>
+            
+                        <!-- Skill: MongoDB -->
+                        <div class="testimonial-slide swiper-slide">
+                            <img src="/icons/_mongodb_icon.png" alt="">
+                            <h3>MongoDB</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+               
+                <div class="swiper-pagination"></div>
+    
+            </div>
+        </div>
+    
+    </div>
+
+
+
+
+</section>
+
+
+
+
+
+
+<!--CONTACT SECTION DESIGN-->
+
+<section class="contact" id="contact">
+    <h2 class="heading">Contact <span>Me!</span></h2>
+    <form id="contact-form">
+        <div class="input-box">
+            <input type="text" id="name" placeholder="Full Name">
+            <input type="email" id="email" placeholder="Email Address">
+        </div>
+        <div class="input-box">
+            <input type="tel" id="mobile" placeholder="Mobile Number">
+            <input type="text" id="subject" placeholder="Email Subject">
+        </div>
+        <textarea id="message" cols="30" rows="10" placeholder="Your Message"></textarea>
+        <input type="submit" value="Send Message" class="btn">
+    </form>
+    <div id="status-message"></div> <!-- Status message element -->
+</section>
+
+
+
+
+<!--FOOTER DESIGN-->
+<footer class="footer">
+    <div class="footer-text">
+        <p>Copyright &copy; 2024 RN BALOYI | All Rights Reserved</p>
+    </div>
+
+    <div class="footer-iconTop">
+    <a href="#home"><i class='bx bx-up-arrow-alt'></i></i></a>
+    </div>
+</footer>
+
+<!--SCROLL REVEAL-->
+<script src="https://unpkg.com/scrollreveal"></script>
+
+
+<!--swiper js-->
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
