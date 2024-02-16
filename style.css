@@ -1200,10 +1200,23 @@ margin-bottom: 3rem;
 
     }
 
+    @media (max-width: 460px) {
+        .home .home-content {
+            padding-bottom: 2rem; /* Add some padding to the bottom of the home-content */
+        }
+    
+        .home .professtion-container {
+            display: none; /* Hide the profession-container */
+        }
+    
+    }
+
     @media (max-width: 365px) {
         .about-img img{
             width: 40vh;
         }
+
+        
 
         .footer{
             flex-direction: column-reverse;
