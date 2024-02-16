@@ -172,7 +172,7 @@ section{
     color: var(--main-color);
     white-space: nowrap; /* Prevents the text from wrapping */
     overflow: hidden; /* Ensures that the overflow is hidden */
-    animation: typing 2s linear infinite /*!important; /* Loop the animation infinitely */
+    animation: typing 2s linear infinite !important; /* Loop the animation infinitely */
 }
 
 @keyframes typing {
