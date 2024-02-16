@@ -452,7 +452,7 @@ span{
 .about-content p {
     font-size: 2em; /* Set paragraph font size */
     margin-bottom: 20px; /* Add margin at the bottom of paragraph */
-    color: #333; /* Set paragraph text color */
+    
 }
 
 .about-content p > span {
